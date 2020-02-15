@@ -77,5 +77,11 @@
 	icon_state = "boritos"
 	grind_results = list(/datum/reagent/aluminium = 1) //from the mylar bag
 
+/obj/item/trash/tacbac
+	name = "Tactical Bacon Can"
+	icon_state = "tacbac"
+	desc = "Seems someone had a successful operation."
+	grind_results = list(/datum/reagent/aluminium = 10)
+	
 /obj/item/trash/attack(mob/M, mob/living/user)
 	return

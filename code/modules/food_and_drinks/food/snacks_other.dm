@@ -674,3 +674,14 @@
 		if (7000 to INFINITY)
 			burn()
 	..()
+
+/obj/item/reagent_containers/food/snacks/tacbac
+	name = "Tactical Bacon"
+	icon_state = "tacbac"
+	desc = "Many hold the firm belief that bacon has the potential to bring about world peace."
+	trash = /obj/item/trash/tacbac
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1, /datum/reagent/consumable/cooking_oil = 2)
+	filling_color = "#854817"
+	tastes = list("bacon" = 2, "covert operations" = 2, "cooking oil" = 1)
+	foodtype = MEAT | FRIED
